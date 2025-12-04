@@ -3,25 +3,7 @@
 import React, { useState } from "react";
 import { Input } from "../components/ui/input";
 import { Button } from "../components/ui/button";
-
-const activeVehiclesDrivers = [
-  "CV-78-QR/Anna Mull",
-  "XN-33-ZQ/Jacob Jones",
-  "XO-54-FO/Jenny Wilson",
-  "RT-98-UI/Leslie Alexander",
-  "CV-78-QR/Oliver",
-  "XN-33-ZQ/John",
-  "XO-54-FO/Robin",
-  "RT-98-UI/Alexa",
-  "CV-78-QR/Lie Alexander",
-  "MT-98-UI/Oliver",
-  "CV-78-QR/John",
-  "XN-33-ZQ/Robin",
-  "XO-54-FO/Alexa",
-  "RT-98-UI/John",
-  "XN-33-ZQ/Oliver",
-  "CV-78-QR/Leslie Alexander",
-];
+import { activeVehiclesDrivers } from "../lib/constants";
 
 export default function SendMessagePage() {
   const [search, setSearch] = useState("");
@@ -47,9 +29,6 @@ export default function SendMessagePage() {
             className="max-w-md bg-[#F8FBFF] border border-gray-300 rounded-lg"
           />
           <div className="flex-1" />
-          {/* <Button className="bg-[#007DFA] hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg">
-            Search
-          </Button> */}
         </div>
 
         <div className="bg-white rounded-xl p-6 mb-1 shadow-sm">

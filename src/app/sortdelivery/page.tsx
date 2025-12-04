@@ -15,14 +15,6 @@ const shipments = [
   { id: 7, number: "CV-78-QR", address: "4 Comboyne St, Kendall, 2439, South Wales", city: "Abu Dhabi, UAE", drops: 5, capacity: 20 },
 ];
 
-// const deliveryCards = [
-//   { date: "19/05/23", code: "554356 | 3BN |", location: "Ovolo Inchcolm" },
-//   { date: "19/05/23", code: "456345 | 5GH |", location: "Ovolo Inchcolm" },
-//   { date: "19/05/23", code: "554356 | 3BN |", location: "Ovolo Inchcolm" },
-//   { date: "19/05/23", code: "456345 | 5GH |", location: "Ovolo Inchcolm" },
-//   { date: "19/05/23", code: "456345 | 5GH |", location: "Ovolo Inchcolm" },
-// ];
-
 export default function SortDeliveryPage() {
   const [selected, setSelected] = useState(0);
   const [search, setSearch] = useState("")

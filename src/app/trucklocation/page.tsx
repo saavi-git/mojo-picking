@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { Button } from "../components/ui/button";
 import { Input } from "../components/ui/input";
-import { useJsApiLoader } from "@react-google-maps/api";
 import Image from "next/image";
 
 const shipments = [
@@ -48,16 +47,12 @@ const shipmentDetails = [
         orderNo: "5409450",
         cartons: 10,
     }
-    // Add similar details for other shipments if needed
 ];
 
 export default function TruckLocationPage() {
     const [selected, setSelected] = useState(0);
     const [search, setSearch] = useState("")
     const [activeTab, setActiveTab] = useState("information");
-    const { isLoaded } = useJsApiLoader({
-        googleMapsApiKey: "YOUR_GOOGLE_MAPS_API_KEY",
-    });
 
     const percentFull = shipments[selected].capacity;
 

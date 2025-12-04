@@ -207,19 +207,6 @@ export default function AboutPage() {
           </div>
         </section>
       </div>
-      {/* Action Bar (footer) */}
-      {/* <div className="fixed bottom-0 left-0 w-full bg-white shadow px-6 py-4 flex items-center gap-3 z-30 border-t border-gray-200">
-        <Input
-          value="2"
-          readOnly
-          className="w-16 bg-[#F8FBFF] border border-gray-200 text-center"
-          placeholder="No. of Cartons"
-        />
-        <Button className="bg-[#007DFA] hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg">Scan Barcode</Button>
-        <Button className="bg-[#007DFA] hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg">Send Message</Button>
-        <Button className="bg-[#007DFA] hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg">Print Labels</Button>
-        <Button className="bg-[#007DFA] hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg">Invoice</Button>
-      </div> */}
     </main>
   );
 }

@@ -27,7 +27,7 @@ const menuItems = [
   { icon: ShoppingBag, label: "Pick and Ship", href: "/about", path: "/about" },
   { icon: ClipboardList, label: "Deliveries", href: "/deliveries", path: "/deliveries" },
   { icon: AlertTriangle, label: "Delivery Issues", href: "/deliveryissues", path: "/deliveryissues" },
-  { icon: Truck, label: "Manage Vehicles", href: "/managevehicels", path: "/managevehicels" },
+  { icon: Truck, label: "Manage Vehicles", href: "/managevehicles", path: "/managevehicles" },
   { icon: Users, label: "Manage Drivers", href: "/managedriver", path: "/managedriver" },
   { icon: ListChecks, label: "Sort Delivery", href: "/sortdelivery", path: "/sortdelivery" },
   { icon: MapPin, label: "Truck Location", href: "/trucklocation", path: "/trucklocation" },

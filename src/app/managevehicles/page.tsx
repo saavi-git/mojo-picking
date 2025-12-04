@@ -1,14 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const vehicles = [
-  { reg: "CV-78-QR", name: "FUSO 617ZAU", number: "FUSO 617ZAU", runNo: "FUSO 617ZAU", shift: "Morning", service: "20000", driver: "" },
-  { reg: "XN-33-ZQ", name: "Isuzu NQR", number: "ISUZU 123XKS", runNo: "ISUZU 123XKS", shift: "Day", service: "25000", driver: "Alex" },
-  { reg: "XO-54-FO", name: "Hino 300", number: "HINO 300", runNo: "HINO 300", shift: "Night", service: "15000", driver: "Sam" },
-  { reg: "RT-98-UI", name: "Volvo FE", number: "VOLVO FE", runNo: "VOLVO FE", shift: "Day", service: "32000", driver: "Jane" },
-  { reg: "MT-98-UI", name: "DAF LF", number: "DAF LF", runNo: "DAF LF", shift: "Morning", service: "18000", driver: "Jill" },
-];
+import { vehicles } from "../lib/constants";
 
 const infoRows = [
   ["Vehicle Name", "FUSO 617ZAU", "Condition", "Good"],

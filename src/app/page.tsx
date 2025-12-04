@@ -25,35 +25,12 @@ const chartDataYear = [
   { month: "Oct", value: 24000, name: "Oct" }, { month: "Nov", value: 26000, name: "Nov" }, { month: "Dec", value: 22000, name: "Dec" },
 ]
 
-
-// const todayDeliveriess = [
-//   { label: "Complete", value: 81, color: "#1787FC", bg: "#E9F3FF" },
-//   { label: "Pending", value: 22, color: "#23B287", bg: "#E2F6F2" },
-//   { label: "Hold", value: 62, color: "#FF655B", bg: "#FFE9E7" },
-//   { label: "Returns", value: 21, color: "#F7B924", bg: "#FFF8E7" },
-// ]
-
-
-// const getPieData = (value: number) => [
-//   { value: value },
-//   { value: 100 - value },
-// ];
-
 const readyToPackPie = [
   { name: "Complete", value: 25, color: "#1787FC" },
   { name: "Pending", value: 29.39, color: "#23B287" },
   { name: "Hold", value: 21.81, color: "#F7B924" },
   { name: "Total", value: 23.80, color: "#FF655B" },
 ]
-
-
-// const todayDeliveries = [
-//   { label: "Complete", value: 81, color: "#1787FC" },
-//   { label: "Pending", value: 22, color: "#23B287" },
-//   { label: "Hold", value: 62, color: "#FF655B" },
-//   { label: "Returns", value: 21, color: "#F7B924" },
-// ]
-
 
 const bestSellers = [
   { image: "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=72&q=80", name: "Izze Sparkling Juice", price: "$29.00", orders: 62, stock: 510, date: "24 Apr 2021", amount: "$1,798", outOfStock: false },

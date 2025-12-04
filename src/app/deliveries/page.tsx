@@ -3,25 +3,7 @@
 import React, { useState } from "react";
 import { Input } from "../components/ui/input";
 import { Button } from "../components/ui/button";
-
-const activeVehiclesDrivers = [
-  "CV-78-QR/Anna Mull",
-  "XN-33-ZQ/Jacob Jones",
-  "XO-54-FO/Jenny Wilson",
-  "RT-98-UI/Leslie Alexander",
-  "CV-78-QR/Oliver",
-  "XN-33-ZQ/John",
-  "XO-54-FO/Robin",
-  "RT-98-UI/Alexa",
-  "CV-78-QR/Lie Alexander",
-  "MT-98-UI/Oliver",
-  "CV-78-QR/John",
-  "XN-33-ZQ/Robin",
-  "XO-54-FO/Alexa",
-  "RT-98-UI/John",
-  "XN-33-ZQ/Oliver",
-  "CV-78-QR/Leslie Alexander",
-];
+import { activeVehiclesDrivers } from "../lib/constants";
 
 const unassignedInvoices = [
   { date: "19/05/23", number: "554536 | 3BN |", desc: "Ovalo Inchcolm" },
@@ -49,9 +31,6 @@ export default function DeliveriesPage() {
             placeholder="Search Driver and Vehicle"
             className="max-w-md bg-[#F8FBFF] border border-gray-300 rounded-lg"
           />
-          {/* <Button className="bg-[#007DFA] hover:bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg">
-            <svg width="18" height="18" fill="none" stroke="#fff" strokeWidth="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21 16.65 16.65"/></svg>
-          </Button> */}
         </div>
 
         {/* Main card container */}
@@ -104,17 +83,8 @@ export default function DeliveriesPage() {
               <div className="flex-1 px-4 py-4"></div>
             </div>
           </div>
-          {/* Action buttons section */}
-          {/* <div className="flex gap-6 mt-8 justify-end">
-            <Button className="bg-[#007DFA] text-white font-semibold px-20 py-2 rounded-lg">Add Vehicle</Button>
-            <Button className="bg-[#007DFA] text-white font-semibold px-20 py-2 rounded-lg">Edit Vehicle</Button>
-            <Button className="bg-[#007DFA] text-white font-semibold px-20 py-2 rounded-lg">Delete</Button>
-          </div> */}
         </div>
       </div>
-
-      
     </div>
-    
   );
 }
